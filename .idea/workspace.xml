@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d100aad-fcfb-4802-a0a7-daf69db3f8ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/JaduFromJson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/JaduFromJson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/JaduFromJson.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/JaduFromJson.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/JaduFromJson.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/JaduFromJson.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/exampleOutputForTests/actions/templates/3342-Completion_Content.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/exampleOutputForTests/actions/templates/3342-Completion_Content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/exampleOutputForTests/form.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/exampleOutputForTests/form.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/JaduFromJson.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/JaduFromJson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/JaduFromJson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/JaduFromJson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/JaduFromJson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Action.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewFormRequestToImport/RequestToImport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewFormRequestToImport/RequestToImport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rule.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/206148eb-5b04-403d-b6ce-4a3aae73d008_Enquire_about_booking_a_wedding_day_celebration_package.zip.008/actions/templates/4710-Email_to_form_filler.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/300282ad-9844-4dfe-98cf-d32ee9974e34_Request_information_&amp;_copies_of_Section_38_Agreements.zip.e34/actions/templates/1005-Email_to_user.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/7738a139-034c-4b46-8028-c41e05b70a8b_Jadu_automation_testing_form (1).zip.a8b/actions/templates/4730-email_template_2.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xlFbg2SiPVriLRUT88wr818mpM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FormAutomationBuild&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d100aad-fcfb-4802-a0a7-daf69db3f8ef" name="Changes" comment="" />
+      <created>1748504826138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748504826138</updated>
+      <workItem from="1748504828208" duration="1610000" />
+      <workItem from="1750855637091" duration="6040000" />
+      <workItem from="1751029982826" duration="727000" />
+      <workItem from="1751031733978" duration="2000" />
+      <workItem from="1751034978788" duration="2000" />
+      <workItem from="1751034995107" duration="2000" />
+      <workItem from="1751283451391" duration="3069000" />
+      <workItem from="1751529921722" duration="7430000" />
+      <workItem from="1754582333818" duration="1966000" />
+      <workItem from="1754641959730" duration="1517000" />
+      <workItem from="1755247789888" duration="796000" />
+      <workItem from="1758285566335" duration="1422000" />
+      <workItem from="1758529841175" duration="3097000" />
+      <workItem from="1759228399928" duration="674000" />
+      <workItem from="1761216102960" duration="17000" />
+      <workItem from="1764685248939" duration="4491000" />
+      <workItem from="1764770737294" duration="1510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
