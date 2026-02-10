@@ -4,7 +4,7 @@ using System.Text.Json;
 namespace JaduFromJson.Utils;
 public static class SaveFiles
 {
-    static readonly string BaseFilePath = "testOutput";
+    public static readonly string BaseFilePath = "FormRequestOutput";
 
     public static void Save(string fileName, object json, string formName = "")
     {

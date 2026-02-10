@@ -6,13 +6,15 @@ public static class Program
 {
     public static void Main(string[] args)
     {
+        Directory.CreateDirectory("FormRequestInput");
+        Directory.CreateDirectory("FormRequestOutput");
         Menu();
     }
 
     static void Menu()
     {
         Console.Clear();
-        Console.WriteLine("Please select an option:\n\t1 Batch request Conversion\n\t2 Generate CXM case from XFP export (In development)\n\t3 Close Application");
+        Console.WriteLine("Please select an option:\n\t1 Batch request Conversion\n\t2 Close Application");
         Console.Write("\nSelect:\t");
         string? menuOption = Console.ReadLine();
         switch (menuOption)
@@ -26,28 +28,6 @@ public static class Program
                 }
                 break;
             case "2":
-                string path = "testOutput";
-                List<string> list2 = GetFilePaths(path);
-                foreach(string formPath in list2)
-                {
-                    Console.WriteLine("Starting generation for: " + formPath);
-                    var formName = formPath.Replace(".zip", "");
-                    string zipPath = $"{formPath}";
-                    string extractPath = $"{formName}";
-                    if (File.Exists(zipPath))
-                    {
-                        Directory.CreateDirectory(extractPath);
-                        ZipFile.ExtractToDirectory(zipPath, extractPath, true);
-                        SafeDeleteDirectory(extractPath);
-                        Console.WriteLine($"CXM generated for {formName}");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Zip file not found: {zipPath}");
-                    }
-                }
-                break;
-            case "3":
                 Console.WriteLine("Buh bye");
                 return;
             default:
