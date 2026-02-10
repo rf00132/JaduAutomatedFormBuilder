@@ -12,9 +12,7 @@ public class Rule
         Position = position;
         Runtime = runtime;
         Actions = GetRuleActions(actions);
-        Console.WriteLine(Title);
         string contents = JsonSerializer.Serialize(this);
-        Console.WriteLine(contents);
         SaveFiles.SaveString(@"\actions\rules\" + 0 + "-" + Title.Replace(" ", "_"), contents, formName);
     }
 
@@ -43,7 +41,6 @@ public class Rule
         return ruleActions;
     }
 }
-
 
 public class RuleAction(Action action, int id)
 {

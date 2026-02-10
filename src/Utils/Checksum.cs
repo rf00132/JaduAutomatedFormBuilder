@@ -43,7 +43,6 @@ public static class Checksum
         json += "}";
         return json;
     }
-
     
     public static string SaveString(string formName = "")
     {
@@ -51,5 +50,4 @@ public static class Checksum
         SaveFiles.SaveString("checksums", checksum, formName);
         return checksum;
     }
-
 }

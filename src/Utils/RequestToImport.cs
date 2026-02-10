@@ -29,7 +29,7 @@ public class RequestToImport
         JsonElement formFile = JsonSerializer.Deserialize<JsonElement>(json);
         CurrentFormName = formFile.GetProperty("Title").ToString().Replace(" ", "_");
         var serviceEmail = GetServiceEmails(formFile.GetProperty("ServiceEmail").ToString());
-        Console.WriteLine("Starting conversion of: " + CurrentFormName);
+        Console.WriteLine("Starting conversion of: " + CurrentFormName.Replace("_", " "));
         SaveFiles.MakeDirectories(CurrentFormName);
        
         Form form = BuildFormJson(formFile.GetProperty("Title").ToString(),  _formId, formFile.GetProperty("Title") + " form.");
@@ -150,6 +150,7 @@ public class RequestToImport
         Rule rule = new("On Submit", 0, "on-submit", [submission, emailToService, emailToUser], CurrentFormName);
         
         SaveFiles.ZipFiles(CurrentFormName);
+        Console.WriteLine("Finished conversion of: " + CurrentFormName.Replace("_", " "));
     }
     
     public static string BuildAnswerString(List<string> answers)
@@ -208,7 +209,7 @@ public class RequestToImport
     
     static Version BuildVersion()
     {
-        Version version = new(["3.1.2", "6.0.1", "1.1", "3.34.1", "2.2.2", "22.2.1", "1.2", "10.2.2", "1.12", "#123", "1.9", "6.0.7"]);
+        Version version = new(["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"]);
         version.Save(CurrentFormName);
         return version;
         
@@ -292,7 +293,6 @@ public class RequestToImport
         List<Placeholder> toPlaceholders = [];
         if (email.Equals(""))
         {
-            /*   toPlaceholders = [new UserEmailAddressPlaceholder("2", formID)];*/
             email = "replace.me@email.co.uk";
         }
         template = new("template-to", new(_formId, email, "formstaticmapping"), "To", toPlaceholders);
@@ -362,13 +362,21 @@ public class RequestToImport
         var splitComma = serviceEmailField.Split(",").ToList().Select((x) => x.Contains("@")? x : null).ToList();
         var splitNewline = serviceEmailField.Split("\n").ToList().Select((x) => x.Contains("@")? x : null).ToList();
         
-        Console.WriteLine("Service emails space: " + string.Join(", ", splitSpace));
-        Console.WriteLine("Service emails comma: " + string.Join(", ", splitComma));
-        Console.WriteLine("Service emails newline: " + string.Join(", ", splitNewline));
-        if (splitSpace.Count > splitComma.Count)
+        if (splitSpace.Count > splitComma.Count && splitSpace.Count > splitNewline.Count)
         {
             return string.Join(", ", splitSpace);
         }
+
+        if (splitComma.Count > splitNewline.Count && splitComma.Count > splitSpace.Count)
+        {
+            return string.Join(", ", splitComma);
+        }
+
+        if (splitNewline.Count > splitSpace.Count && splitNewline.Count > splitComma.Count)
+        {
+            return string.Join(", ", splitNewline);
+        }
+
         return string.Join(", ", splitComma);
     }
 }
