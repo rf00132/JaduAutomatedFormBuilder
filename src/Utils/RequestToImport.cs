@@ -403,7 +403,7 @@ public class RequestQuestion
         Section = int.Parse(data[0]);
         SectionName = data[1];
         Mandatory = data[3] == "Yes";
-        List<string> commaSeparated = data[5].Replace(" -", ",").Split(",").ToList();
+        List<string> commaSeparated = data[5].Replace("-", ",").Split(",").Select(e => e.Trim()).ToList();
         List<string> newlineSeparated  = data[5].Split("\n").ToList();
         Options = commaSeparated.Count > newlineSeparated.Count ? commaSeparated : newlineSeparated;
     }
