@@ -1,0 +1,10 @@
+bin/
+obj/
+
+# JetBrains / Visual Studio IDE
+.idea/
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
